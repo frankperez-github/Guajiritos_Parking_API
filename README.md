@@ -41,11 +41,16 @@ This application serves as an API for managing parking spots, user authenticatio
    ```bash
    npx sequelize-cli db:migrate
    ```
-5. **Run the Application**:
-   Start the server in development mode:
+5. **Run e2e tests**:
 
    ```bash
-   npm run dev
+   npm test
+   ```
+   
+6. **Run the Application**:
+
+   ```bash
+   npm start
    ```
 
 ## API Endpoints
